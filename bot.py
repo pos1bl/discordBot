@@ -8,7 +8,6 @@ intents.messages = True
 
 bot = commands.Bot(command_prefix='?', description=description, intents=intents)
 
-
 @bot.event
 async def on_ready():
     print(f'Logged in as {bot.user} (ID: {bot.user.id})')
